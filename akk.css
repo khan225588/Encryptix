@@ -1,0 +1,113 @@
+body {
+    color: rgb(76, 121, 108);
+    margin: 0;
+    font-family:"Merriweather", serif;
+    text-align: center;
+
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5rem;
+    color: rgb(85, 202, 202);
+    margin: 50px;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: rgb(57, 198, 198);
+    text-align: center;
+}
+h3{
+    color: rgb(57, 198, 198);  
+    font-family: "Montserrat", sans-serif;
+}
+.pro {
+    text-decoration: underline;
+}
+p {
+    line-height: 2;
+}
+hr{
+    border: dotted #b7ecec 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+    color: #eaf6f6;
+  }
+.top-container {
+    background-color: rgb(195, 233, 233);
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container {
+    margin: 100px 0;
+}
+.bottom-container {
+    background-color: rgb(10, 190, 190);
+    padding: 50px 0 20px;
+}
+.skill {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.profile{
+    width: 30% 0;
+    margin: auto ;
+}
+.contact-me {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+  }
+  .bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+  }
+  .team-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+  }
+  .sport-img {
+    width: 40%;
+    margin-left: 30px;
+  }
+  .btn {
+    background: #11cdd4;
+    
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  }
+  .btn:hover {
+    background: #30e3cb;
+    
+    text-decoration: none;
+  }
+  
+  .parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+  }
